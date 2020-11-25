@@ -1,30 +1,31 @@
 ______________________________________________________________
-Nome:  test_Area_Aluno
+nome de função   test_Area_Aluno (nome da função) 
+O que  precisa 
+Precisa saber se o aluno só tem uma área de pesquisa 
 
-Entrada : códigos das áreas de pesquisa
+Entrada :os dados do aluno
 
-saída :
-verdadeiro quando ele tiver  só uma uma área de pesquisa
-falso quando o ele esta associado mais de uma 
+saída : sai se os dados do aluno esta dentro dos conformes exigidos 
 
 O que faz:
 Entra os códigos das área do aluno para testa se sa
 _____________________________________________________________
-Nome test_Grau_ dissimilaridade 
-Entrada entra com código de área e para conferir e sua similaridade 
+nome de função  test_Grau_ dissimilaridade()
+Caso :
+Precisamos de ver se o grau de dissimilaridade esta certo entre as áreas de pesquisas
+Entrada
+Os códigos  das áreas  a ser testado e também se e o  resultado esperado da tabela e o resultado  obtido 
 Saída 
-Verdadeiro : se dissimilaridade esta certa 
-Falsa: dissimilaridade esta falsa 
-O que faz :
-Esse teste conferi se resposta da dissimilaridade esta saído com o previsto 
+Confirma ou não se dissimilaridade esta certa ou não 
+
 ____________________________________________________________
-Nome: test_quant_Grupos   
-Entrada cod professor  e grupos 
+nome de função: test_quant_Grupos  
+Precisamos conferir se os professores estão alocados  de forma devida  em grupos e que nenhum professor não foi alocado 
+Entrada
+ Códigos dos professores e grupos formados 
 Saída 
-Certo o numero de grupos e igual au número de professor 
-Errado o numero de grupo esta errado 
-O que faz :
-Pega o número de professores e testa o número de grupos existente 
+Retorna os códigos dos professores faltando ser alocado devidamente    
+
 __________________________________________________________________
 
 
