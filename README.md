@@ -1,8 +1,8 @@
 # Trabalho Prático de Grafos
 
-a) **Contexto do trabalho:** Pontifícia Universidade Católica de Minas Gerais. 
-**Curso:** Engenharia de Software/Noturno. 
-**Disciplina:** Algoritmos Computacionais em Grafos. **Professora:** Joyce Christina de Paiva Carvalho. 
+a) **Contexto do trabalho:** Pontifícia Universidade Católica de Minas Gerais. \n 
+**Curso:** Engenharia de Software/Noturno. \n
+**Disciplina:** Algoritmos Computacionais em Grafos. **Professora:** Joyce Christina de Paiva Carvalho. \n
 **Alunos:** Daniel Henrique Rodrigues Costa, Geovane de Freitas Queiroz Morcatti, Guilherme Henrique Ladislau Biagini & Weber Marques de Oliveira
 
 ---------------------------------------------------------------------------------------------------------------------------------
@@ -15,7 +15,7 @@ c) **Dependências** O trabalho foi feito na linguagem Python na IDE Visual Stud
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-d) **Licenciamento:GPLv3** Créditos : https://github.com/Haddadson/mymfs
+d) **Licenciamento:GPLv3** Créditos : https://github.com/trabalho-de-grafos
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
