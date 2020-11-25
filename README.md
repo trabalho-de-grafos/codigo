@@ -1,69 +1,27 @@
-# PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS
-INSTITUTO DE CIÊNCIAS EXATAS E INFORMÁTICA
-UNIDADE EDUCACIONAL PRAÇA DA LIBERDADE
-Bacharelado em Engenharia de Software
+# Trabalho Prático de Grafos
+
+a) **Contexto do trabalho:** Pontifícia Universidade Católica de Minas Gerais. 
+**Curso:** Engenharia de Software/Noturno. 
+**Disciplina:** Algoritmos Computacionais em Grafos. **Professora:** Joyce Christina de Paiva Carvalho. 
+**Alunos:** Daniel Henrique Rodrigues Costa, Geovane de Freitas Queiroz Morcatti, Guilherme Henrique Ladislau Biagini & Weber Marques de Oliveira
+
+---------------------------------------------------------------------------------------------------------------------------------
  
+b) **Desenvolvedores:** Daniel Henrique Rodrigues Costa, Geovane de Freitas Queiroz Morcatti, Guilherme Henrique Ladislau Biagini & Weber Marques de Oliveira
 
+---------------------------------------------------------------------------------------------------------------------------------
+ 
+c) **Dependências** O trabalho foi feito na linguagem Python na IDE Visual Studio Code implementando as funções linting, debug, execução, testes, etc.; utilizamos esse vídeo para a configuração da IDE (https://www.youtube.com/watch?v=ZQ60SJDACuc).
 
+---------------------------------------------------------------------------------------------------------------------------------
 
+d) **Licenciamento:GPLv3** Créditos : https://github.com/Haddadson/mymfs
 
+---------------------------------------------------------------------------------------------------------------------------------
 
+```
+ Algumas classes e pacotes que utilizamos:
 
-
-Daniel Henrique Rodrigues Costa 
-Geovane de Freitas Queiroz Morcatti
-Guilherme Henrique Ladislau Biagini
-Weber Marques de Oliveira
-
-
-
-
-ALGORITMOS COMPUTACIONAIS EM GRAFOS
-
-
-
-
-
-
-
-
-
-
-
-Belo Horizonte
-  2020 
-Daniel Henrique Rodrigues Costa
-Geovane de Freitas Queiroz Morcatti
-Guilherme Henrique Ladislau Biagini
-Weber Marques de Oliveira
-
-
-
-
-
-
-ALGORITMOS COMPUTACIONAIS EM GRAFOS
-
-
-
-
-
-
-
-Trabalho de Software apresentado como requisito parcial à aprovação na disciplina de Algoritmos Computacionais em Grafos.
-
-Professora: Joyce Christina de Paiva Carvalho. 
-
-
-
-
-
-
-
-
-Belo Horizonte
-  2020
-Classes
 Pacote src:
 Classe Aluno: Possui um construtor aluno.
 Classe Grupo: Checa a similaridade dos grupos.
@@ -79,3 +37,12 @@ Pacote input: Armazena os arquivos dos alunos e professores de entrada.
 Pacote output : Armazena o arquivo de saída.
 
 Classe main: Ponto de início de execução da aplicação.
+
+```
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+**Sobre o programa:**
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
