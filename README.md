@@ -1,8 +1,11 @@
 # Trabalho Prático de Grafos
 
-a) **Contexto do trabalho:** Pontifícia Universidade Católica de Minas Gerais. \n 
-**Curso:** Engenharia de Software/Noturno. \n
-**Disciplina:** Algoritmos Computacionais em Grafos. **Professora:** Joyce Christina de Paiva Carvalho. \n
+a) **Contexto do trabalho:** Pontifícia Universidade Católica de Minas Gerais. 
+
+**Curso:** Engenharia de Software/Noturno. 
+
+**Disciplina:** Algoritmos Computacionais em Grafos. **Professora:** Joyce Christina de Paiva Carvalho. 
+
 **Alunos:** Daniel Henrique Rodrigues Costa, Geovane de Freitas Queiroz Morcatti, Guilherme Henrique Ladislau Biagini & Weber Marques de Oliveira
 
 ---------------------------------------------------------------------------------------------------------------------------------
