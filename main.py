@@ -87,9 +87,22 @@ if __name__ == '__main__':
                 lista_reservada.append(mini_gru[0])
 
 
-    print(grupo1)
-    print(grupo2)
-    print(grupo3)
+    # Imprimir Grupos de pesquisa
+    print('Grupo 1: ')
+    for gr in grupo1:
+        print('Código Aluno: ', gr[0], 'Área Pesquisa',gr[1])
+
+    print('Grupo 2: ')
+    for gr in grupo2:
+        print('Código Aluno: ', gr[0], 'Área Pesquisa',gr[1])
+
+    print('Grupo 3: ')
+    for gr in grupo3:
+        print('Código Aluno: ', gr[0], 'Área Pesquisa',gr[1])
+
+
+
+
 
 
 
