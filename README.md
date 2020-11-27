@@ -25,7 +25,7 @@ d) **Licenciamento:GPLv3** Créditos : https://github.com/trabalho-de-grafos
 
 <h1> Algumas classes e pacotes que utilizamos: </h1>
 
-<ol>
+```
 Pacote src:
 Classe Aluno: Possui um construtor aluno.
 Classe Grupo: Checa a similaridade dos grupos.
@@ -41,7 +41,7 @@ Pacote input: Armazena os arquivos dos alunos e professores de entrada.
 Pacote output : Armazena o arquivo de saída.
 
 Classe main: Ponto de início de execução da aplicação.
-</ol>
+
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------
