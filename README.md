@@ -40,7 +40,7 @@ Pacote input: Armazena os arquivos dos alunos e professores de entrada.
 Pacote output : Armazena o arquivo de saída.
 
 Classe main: Ponto de início de execução da aplicação.
-<ol>
+</ol>
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------
