@@ -6,7 +6,8 @@ from src import grupo
 
 if __name__ == '__main__':
 
-    num_professores= int(input('Insert k -> numero de professores: '))
+    #num_professores= int(input('Insert k -> numero de professores: '))
+    num_professores = 5
     # simi = int(input('Insira a dissimilaridade minima: '))
     simi = 50
     arquivo1 = arquivo.input('aluno.txt')
@@ -30,11 +31,37 @@ if __name__ == '__main__':
         for i, line in enumerate(arquivo2):
             # j é a posição no vetor line e num é o conteúdo na posição
             for j, num in enumerate(line):
-                # confere se o aluno n é o referente a linha e não a coluna
-                if aluno.cod_area == i and aluno.cod_area != j:
-                    # pegar o conteudo num de line.
-                    if num > simi:
-                        print(aluno.cod_aluno,' similaridade: ', num)
+                # filtros referentes ao codigo da area e indice de dissimilaridade
+                if j!=0 and i!=0 and i!=j and aluno.cod_area==i and num>simi:
+                    print(aluno.cod_aluno, aluno.cod_area, i, j, num)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                # if aluno.cod_area == i and aluno.cod_area != j:
+                #     # pegar o conteudo num de line.
+                #
+                #     if num > simi:
+                #         print('aluno:', aluno.cod_aluno, ' cod_area: ', j,' similaridade: ', num)
+
+                       # print(aluno.cod_aluno,' similaridade: ', num)
 
                     # if aluno.cod_area > simi:
                     #     for alun2 in alunos:
