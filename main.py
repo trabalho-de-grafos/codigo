@@ -7,9 +7,11 @@ from src import grupo
 if __name__ == '__main__':
 
     num_professores= int(input('Insert k -> numero de professores: '))
-    simi = int(input('Insira a dissimilaridade minima: '))
+    # simi = int(input('Insira a dissimilaridade minima: '))
+    simi = 50
     arquivo1 = arquivo.input('aluno.txt')
     alunos = []
+    alunos_relations = []
     grupos = []
     print(arquivo1)
 
@@ -21,11 +23,36 @@ if __name__ == '__main__':
 
     arquivo2 = arquivo.input('matrix.txt')
 
+    # aluno n
+    for aluno in alunos:
+        # percorrer matriz
+        # i é a linha, line é um vetor.
+        for i, line in enumerate(arquivo2):
+            # j é a posição no vetor line e num é o conteúdo na posição
+            for j, num in enumerate(line):
+                # confere se o aluno n é o referente a linha e não a coluna
+                if aluno.cod_area == i and aluno.cod_area != j:
+                    # pegar o conteudo num de line.
+                    if num > simi:
+                        print(aluno.cod_aluno,' similaridade: ', num)
+
+                    # if aluno.cod_area > simi:
+                    #     for alun2 in alunos:
+                    #         if alun2.cod_aluno != aluno.cod_aluno:
+                    #             if alun2.cod_area == j:
+
+                                    # arquivo2[i][j]
+
+
+
+
+
+
+
+
 
     # navegar matriz
-    for line in arquivo2:
-        for num in line:
-            print(num)
+
 
 
 
