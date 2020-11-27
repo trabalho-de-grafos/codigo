@@ -6,15 +6,13 @@ from src import grupo
 
 if __name__ == '__main__':
 
-    #num_professores= int(input('Insert k -> numero de professores: '))
+    # numero de professores = k
     num_professores = 3
-    # simi = int(input('Insira a dissimilaridade minima: '))
-    simi = 50
+
     arquivo1 = arquivo.input('aluno.txt')
     alunos = []
     alunos_relations = []
     grupos = []
-    grupos_finais = []
     dissimilar_array = []
 
 
@@ -67,10 +65,36 @@ if __name__ == '__main__':
     # grupo[2] = cod_outra_area
     # grupo[3] = dissimilaridade
 
+    # formar os grupos finais
+    grupo1 = []
+    grupo2 = []
+    grupo3 = []
+
+    #alunos com grupo
+    lista_reservada = []
 
     for gru in grupos:
-        print(gru)
+        # print(gru)
         for mini_gru in gru:
-            pass
-           # print(mini_gru)
+            if array_group[2] == mini_gru[3] and mini_gru[0] not in lista_reservada:
+                grupo1.append(mini_gru)
+                lista_reservada.append(mini_gru[0])
+            elif array_group[1] == mini_gru[3] and mini_gru[0] not in lista_reservada:
+                grupo2.append(mini_gru)
+                lista_reservada.append(mini_gru[0])
+            elif array_group[0] == mini_gru[3] and mini_gru[0] not in lista_reservada:
+                grupo3.append(mini_gru)
+                lista_reservada.append(mini_gru[0])
+
+
+    print(grupo1)
+    print(grupo2)
+    print(grupo3)
+
+
+
+
+
+
+
 
