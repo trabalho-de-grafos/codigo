@@ -25,22 +25,23 @@ d) **Licenciamento:GPLv3** Créditos : https://github.com/trabalho-de-grafos
 
 <h1> Algumas classes e pacotes que utilizamos: </h1>
 
-```
+
 Pacote src:
-Classe Aluno: Possui um construtor aluno.
-Classe Grupo: Checa a similaridade dos grupos.
-Classe Arquivo: Operações de arquivo (ler, escrever, gravar, procurar, ect.).
+- Classe Aluno: Possui um construtor aluno.
+- Classe Grupo: Checa a similaridade dos grupos.
+- Classe Arquivo: Operações de arquivo (ler, escrever, gravar, procurar, ect.).
+
 Pacote test:
-Classe tests: Possui 3 casos de testes
-test_Area_Aluno: verifica se o aluno possui uma área de pesquisa ou está associado á mais de uma.
-test_Grau_dissimilaridade: verifica se a similaridade é a mesma do que a digitada.
-test_quant_Grupos: verifica se os números de grupos é igual ao número de professores. 
+- Classe tests: Possui 3 casos de testes
+1. test_Area_Aluno: verifica se o aluno possui uma área de pesquisa ou está associado á mais de uma.
+2. test_Grau_dissimilaridade: verifica se a similaridade é a mesma do que a digitada.
+3. test_quant_Grupos: verifica se os números de grupos é igual ao número de professores. 
 
 Pacote files 
-Pacote input: Armazena os arquivos dos alunos e professores de entrada.
-Pacote output : Armazena o arquivo de saída.
+- Pacote input: Armazena os arquivos dos alunos e professores de entrada.
+- Pacote output : Armazena o arquivo de saída.
 
-Classe main: Ponto de início de execução da aplicação.
+- Classe main: Ponto de início de execução da aplicação.
 
 ```
 
