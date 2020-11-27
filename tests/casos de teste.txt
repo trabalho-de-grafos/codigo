@@ -1,31 +1,31 @@
 ______________________________________________________________
-nome de função   test_Area_Aluno (nome da função) 
+nome de função   test_Area_Aluno 
 O que  precisa 
-Precisa saber se o aluno só tem uma área de pesquisa 
-
-Entrada :os dados do aluno
-
-saída : sai se os dados do aluno esta dentro dos conformes exigidos 
-
-O que faz:
-Entra os códigos das área do aluno para testa se sa
+	Cada aluno está associado a apenas uma área de pesquisa.  
+	Nesse caso temos que testar se aluno esta alocado em uma e somente um área de pesquisa . 
+Entrada :
+Os dados de aluno
+saída : 
+sai se os dados estão correto 
 _____________________________________________________________
-nome de função  test_Grau_ dissimilaridade()
+nome de função  test_Grau_dissimilaridade 
 Caso :
-Precisamos de ver se o grau de dissimilaridade esta certo entre as áreas de pesquisas
+Cada área de pesquisa tem grau de dissimilaridade entre seus respectivos trabalhos de pesquisa. Esse grau de dissimilaridade entre os trabalhos de pesquisa será fornecido em uma matriz de dissimilaridade
+Dado esse problema para testar podemos ver temos que checar se grau esta devida demente alocado.    
 Entrada
-Os códigos  das áreas  a ser testado e também se e o  resultado esperado da tabela e o resultado  obtido 
+	As área de pesquisa  e a matriz de dissimilaridade 
 Saída 
 Confirma ou não se dissimilaridade esta certa ou não 
+ 
 
 ____________________________________________________________
-nome de função: test_quant_Grupos  
-Precisamos conferir se os professores estão alocados  de forma devida  em grupos e que nenhum professor não foi alocado 
+nome de função: test_quant_Grupos:
+número de grupos será determinado pelo número 𝑘 de professores do departamento de computação.
+Nesse caso de teste podemos observar que temos testar se todos os professores tem uma pesquisa para gerencia.  
 Entrada
- Códigos dos professores e grupos formados 
+ Números de professores e numero de grupos formados 
 Saída 
-Retorna os códigos dos professores faltando ser alocado devidamente    
-
-__________________________________________________________________
+Retorna números de professores que falta ter sua pesquisa 
+________________________________________________________________
 
 
