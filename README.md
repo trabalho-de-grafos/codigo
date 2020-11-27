@@ -24,7 +24,7 @@ d) **Licenciamento:GPLv3** Créditos : https://github.com/trabalho-de-grafos
 
 ```
  Algumas classes e pacotes que utilizamos:
-
+<ol>
 Pacote src:
 Classe Aluno: Possui um construtor aluno.
 Classe Grupo: Checa a similaridade dos grupos.
@@ -40,12 +40,13 @@ Pacote input: Armazena os arquivos dos alunos e professores de entrada.
 Pacote output : Armazena o arquivo de saída.
 
 Classe main: Ponto de início de execução da aplicação.
-
+<ol>
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-**Sobre o programa:**
+**Sobre o programa:** A lógica da solução se baseia em receber um arquivo TXT de aluno que gera um objeto aluno e depois tem um segundo arquivo de uma matriz que é percorrido e mapeia a similaridade, essa similaridade é uma matriz que liga o código das áreas x código das outras áreas e é baseada em uma interseção de uma área e de outra área, com essa interseção conseguimos mapear a similaridade para a quantidade de grupos separando os alunos por grupos, depois de formar os grupos alocamos 1 professor para cada grupo resolvendo o problema descrito no trabalho.
+
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
